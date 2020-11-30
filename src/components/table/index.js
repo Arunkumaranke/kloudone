@@ -9,7 +9,7 @@ const DataTable = (props) => {
       .then(res => setData(res))
     setLoading(false);
   };
-  useEffect(() => fetchData())
+  useEffect(() => fetchData(),[])
   return (
     <Skeleton loading={loading} active>
       {data && data.map((item, key) =>
