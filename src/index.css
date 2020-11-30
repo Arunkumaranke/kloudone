@@ -104,7 +104,7 @@ h6{
   color:#fff;
 }
 .search-width{
-width: 200;
+width: 200px !important;
 }
 
 .avatar{
@@ -113,7 +113,7 @@ width: 200;
 }
 @media only screen and (max-width: 425px) {
   .search-width{
-    width: 80;
+    width: 120px !important;
     }
     .avatar{
       width: 20px;
