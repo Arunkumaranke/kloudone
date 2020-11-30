@@ -1,13 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import { Row, Col, DatePicker, Skeleton, Input, Avatar, Dropdown, Menu, Switch, Layout } from 'antd';
-import Barchart from '../components/barchart';
+import React, { useState } from 'react';
+import { Row, Col, Skeleton, Input, Avatar, Dropdown, Menu, Switch } from 'antd';
 import Stacked from '../components/barchart-stacked';
 import LineChart from '../components/linechart';
 import PieChart from '../components/piechart';
-import moment from 'moment';
 import DataTable from '../components/table';
 import SideBar from '../components/sidebar';
-import { UserOutlined, DownOutlined, VideoCameraOutlined, UploadOutlined } from '@ant-design/icons';
+import { UserOutlined, DownOutlined } from '@ant-design/icons';
 
 const { Search } = Input;
 const DataLayout = (props) => {
