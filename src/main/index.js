@@ -42,18 +42,18 @@ const DataLayout = (props) => {
             <Col xs={23} sm={18} md={16} lg={20}>
                 <Skeleton loading={loading} active>
                     <Row className="row1">
-                        <Col className="search" xs={24} sm={12} md={15} lg={18}>
+                        <Col className="search" xs={12} sm={12} md={15} lg={18}>
                             {/* <Icon type="search" /> */}
-                            <Search placeholder="Search..." onSearch={onSearch} style={{ width: 200 }} />
+                            <Search className="search-width" placeholder="Search..." onSearch={onSearch} />
                         </Col>
-                        <Col className="user-name" xs={24} sm={12} md={9} lg={6}>
+                        <Col className="user-name" xs={12} sm={12} md={9} lg={6}>
                             <Row>
                                 <Col>
                                     <h4 className="row1-col2-h4">Adele Mitchell</h4>
                                     <h6>Super Admin</h6>
                                 </Col>
                                 <Col className="row1-col2">
-                                    <Avatar size="large" icon={<UserOutlined />} />
+                                    <Avatar className="avatar" icon={<UserOutlined />} />
                                     <Dropdown className="row1-col2" overlay={menu} trigger={['click']}>
                                         <DownOutlined className="dropdown" />
                                     </Dropdown>
