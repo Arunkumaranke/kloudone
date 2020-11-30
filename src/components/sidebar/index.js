@@ -1,6 +1,6 @@
 import React from 'react';
 import 'antd/dist/antd.css';
-// import { NavLink, withRouter } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 import { Menu, Layout, Row, Col } from 'antd';
 import {
     MailOutlined,
@@ -89,11 +89,9 @@ const SideBar = (props) => {
                     >
                         {sideBarData.map((data, key) => {
                             return (
-                                // <NavLink key={key} to={data.path}>
                             <Menu.Item key={key} icon={data.icon}>
                                 {data.name}
                             </Menu.Item>
-                            // </NavLink>
                             )
                         })}
                     </Menu>
@@ -101,4 +99,4 @@ const SideBar = (props) => {
             </Layout>
     )
 }
-export default (SideBar);
+export default withRouter(SideBar);
