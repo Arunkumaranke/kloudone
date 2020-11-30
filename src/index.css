@@ -5,9 +5,101 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #a4dded;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.sider {
+  flex:none !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: unset !important ;
+}
+.menu {
+  border-right: none !important;
+}
+h2{
+font-weight: 600 !important;
+}
+.dark h2 {
+  color: #fff;
+}
+h4 {
+font-weight: 700 !important;
+}
+.dark h4 {
+  color: #fff;
+}
+h6{
+  font-weight: 500 !important;
+}
+.dark h6 {
+  color: #fff;
+}
+.africa-img {
+  height: 28px;
+}
+.row1 {
+  padding: 15px;
+}
+.dark .row1 {
+  background-color: #16213E;
+}
+.row1-col2 {
+  margin-left: 8px;
+}
+.row1-col2-h4{
+  margin-bottom: 0px;
+}
+.content-row{
+  padding: 18px 12px 18px 28px;
+}
+.dark .content-row {
+  background-color: #1a1A2e;
+}
+.card-cont {
+  padding: 10px;
+}
+.card {
+  border-radius: 12px;
+  background-color: azure;
+  height: 100%;
+}
+.light .card {
+  background-color: azure;
+}
+.dark .card {
+  background-color: #16213E;
+}
+.title-name{
+  background-color: white;
+  width: 100%;
+}
+.dark .title-name{
+  background-color: #16213E;
+}
+.dark .sidebar {
+  background-color: #16213E;
+}
+.dark .dropdown{
+  color:#fff
+}
+.theme-name{
+  padding-right: 5px;
+}
+.table{
+  padding:7px;
+}
+.name-size{
+  font-size: small;
+}
+.dark .table-item{
+  color:#e94560;
+}
+.dark .table-item1{
+  color:#fff;
 }
